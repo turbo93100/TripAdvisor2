@@ -1,0 +1,264 @@
+/* GLOBALS */
+
+body {
+  font-family: "TS-Reg";
+  font-size: 16px;
+}
+
+.container {
+  width: 1024px;
+  margin: 0 auto;
+}
+h1 {
+  font-size: 54px;
+  font-family: "TS-Med";
+  margin: 20px 0;
+}
+/* ------------------------------------ */
+/* HEADER */
+/* ------------------------------------
+------------------------------------
+------------------------------------ */
+
+header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 2px solid red;
+  height: 60px;
+}
+
+header img {
+  width: 190px;
+}
+header nav {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.icons-nav {
+  display: flex;
+}
+.icons-nav:not(:last-child) {
+  padding: 8px 10px;
+}
+.icons-nav i {
+  margin-right: 4px;
+}
+
+header button {
+  height: 40px;
+  width: 130px;
+  background-color: black;
+  color: white;
+  border-radius: 20px;
+  border: none;
+}
+
+/* ------------------------------------ */
+/* TOP-SECTION */
+/* ------------------------------------
+------------------------------------
+------------------------------------ */
+
+h1 span {
+  color: #ff5d5d;
+}
+
+h1 + p {
+  font-size: 12px;
+  color: #333333;
+  margin-bottom: 30px;
+}
+h1 + p span {
+  text-decoration: underline;
+}
+
+.top-nav {
+  display: flex;
+  gap: 10px;
+  height: 66px;
+  margin-bottom: 20px;
+}
+.top-nav > div {
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid;
+  border-radius: 14px;
+  /* height: 40px; */
+  padding: 12px 15px;
+  flex: 1;
+}
+
+.views {
+  display: flex;
+  height: 430px;
+  gap: 2px;
+}
+.views > img {
+  flex: 3;
+  object-fit: cover;
+}
+.views > div {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  flex: 2;
+}
+
+.views > div img {
+  height: calc(50% - 1px);
+  width: 100%;
+  object-fit: cover;
+}
+
+.menu {
+  display: flex;
+  justify-content: space-between;
+  color: #333333;
+  font-size: 12px;
+  margin-bottom: 40px;
+}
+
+.left-menu {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.description {
+  display: flex;
+  margin-bottom: 56px;
+}
+
+.description .cont {
+  width: 50%;
+}
+
+.cont h2 {
+  font-family: "TS-Med";
+  font-size: 28px;
+  font-weight: 700;
+  margin-bottom: 16px;
+  letter-spacing: 0.6px;
+}
+
+.cont p {
+  font-size: 20px;
+  font-family: "Times New Roman", Times, serif;
+  color: #333333;
+  line-height: 24px;
+}
+
+.cont {
+  width: 50%;
+}
+
+.cont2 {
+  display: flex;
+  flex-direction: column;
+  padding-left: 120px;
+  width: 50%;
+}
+
+.cont2 div {
+  padding-left: 120px;
+  background-color: #ff5e5e;
+  padding: 16px;
+  border-radius: 16px 16px 0 0;
+}
+
+.cont2 h3 {
+  font-size: 32px;
+  font-family: "TS-Reg";
+  font-weight: 500;
+  margin-bottom: 16px;
+}
+
+.cont2 p {
+  margin-bottom: 24px;
+}
+
+.cont2 button {
+  width: 154px;
+  height: 54px;
+  border: none;
+  border-radius: 10px;
+  background-color: black;
+  color: white;
+  font-size: 16px;
+  font-family: TS-Reg, sans-serif;
+}
+
+.cont2 button:hover {
+  background-color: #ff5e5e;
+  border: white solid 1px;
+  color: white;
+  cursor: pointer;
+}
+
+.map {
+  height: 190px;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 0 0 16px 16px;
+}
+
+.section-1 {
+  display: flex;
+  flex-direction: column;
+}
+
+.section-1 h2 {
+  font-size: 32px;
+  font-family: "TS-Med";
+  font-weight: 700;
+  margin-bottom: 40px;
+}
+
+.section-1 div {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+}
+
+.infos {
+  display: flex;
+  flex-direction: column;
+  padding-right: 30px;
+}
+
+.infos h3 {
+  font-size: 24px;
+  font-family: "TS-Reg";
+  font-weight: 700;
+}
+
+.infos p {
+  font-size: 18px;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: 500;
+  line-height: 22px;
+}
+
+.infos a {
+  color: black;
+}
+
+.carousel {
+  display: flex;
+  height: 430px;
+  gap: 2px;
+}
+
+.carousel-content div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+}
+
+.carousel-content img {
+  flex: 3;
+  object-fit: cover;
+}
